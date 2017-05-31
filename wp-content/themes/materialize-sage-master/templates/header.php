@@ -1,12 +1,13 @@
 <nav>
-  <div class="container">
   <div class="nav-wrapper">
-    <!-- <a class="brand-logo" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a> -->
-    <?php
-    if (has_nav_menu('primary_navigation')) :
-      wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'right hide-on-med-and-down']);
-    endif;
-    ?>
-  </div>
+    <a href="#!" class="brand-logo left"><i class="material-icons">brightness_1</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li>MENU</li>
+      <li><a href=""><i class="material-icons">reorder</i></a></li>
+    </ul>
+    <div class="nav-content center-align">
+      <h1>MAIN TITLE</h1>
+      <h2>Lorem ipsum dolor sit amet, eu est summo scripserit. Mei cu quod vol uptua</h2>
+    </div>
   </div>
 </nav>
