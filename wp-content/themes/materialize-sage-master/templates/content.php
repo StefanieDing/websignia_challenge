@@ -1,25 +1,14 @@
-<!-- <div class="col s12">
-  <div <?php post_class('card'); ?>>
-    <div class="card-content">
-      <span class="card-title"><?php the_title(); ?></span>
-      <?php get_template_part('templates/entry-meta'); ?>
-      <p><?php the_excerpt(); ?></p>
-    </div>
-    <div class="card-action">
-      <a href="<?php the_permalink(); ?>">Read more</a>
-    </div>
-  </div>
-</div> -->
   <div class="row">
-    <div class="col s12">
+    <div class="col s12 clear">
       <!-- img -->
+      <img class="banner1" src="wp-content/themes/materialize-sage-master/assets/images/banner1.jpg" alt="banner1">
     </div>
   </div>
 
-  <div class="row quote">
-    <div class="col s12">
-      <div class="smalltitle">SMALL TITLE</div>
-      <h2>Lorem ipsum dolor sit atem, eu est summo scripserit. Mei cu quod vol uptua</h2>
+  <div class="row gray-block">
+    <div class="col s12 center-align">
+      <h3 class="smalltitle"><?php the_title(); ?></h3>
+      <h2 class="quote">Lorem ipsum dolor sit atem, eu est summo scripserit. Mei cu quod vol uptua</h2>
     </div>
   </div>
 
@@ -57,22 +46,23 @@
   </div>
 
   <div class="row">
-    <div class="col s12">
+    <div class="col s12 clear">
       <!-- img -->
+      <img class="banner2" src="wp-content/themes/materialize-sage-master/assets/images/banner2.jpg" alt="banner2">
     </div>
   </div>
 
   <div class="row">
-    <div class="col s12">
-      <div class="smalltitle">SMALL TITLE</div>
+    <div class="col s12 center-align">
+      <h3 class="smalltitle"><?php the_title(); ?></h3>
 
       <!-- list -->
     </div>
   </div>
 
-  <div class="row quote">
+  <div class="row gray-block">
     <div class="col s12">
-      <h2>Mei cu quod vol uptua elaboraret. An wisi hen drerit pertinacia vis, ne eum saepe vive ndum interesset. Lobortis sapi ent em no usu</h2>
+      <h2 class="quote">Mei cu quod vol uptua elaboraret. An wisi hen drerit pertinacia vis, ne eum saepe vive ndum interesset. Lobortis sapi ent em no usu</h2>
     </div>
   </div>
 

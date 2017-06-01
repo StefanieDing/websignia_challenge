@@ -1,17 +1,53 @@
-.quote{
+.gray-block{
   background-color: #d0d0d0;
   height: 418px;
   color: black;
 }
 
+.quote{
+  margin: 50px;
+}
+
 .smalltitle{
   font-weight: lighter;
-  border-bottom: 2px solid #4bb1b7;
   color: black;
-  font-size: 18px;
+  padding-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+.smalltitle:before{
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 1px;
+  bottom: 0;
+  left: 10%;
+  border-bottom: 2px solid #4bb1b7;
 }
 
 .col.s12{
   align: center;
-  padding: 20px;
+  padding: 100px 250px;
+}
+
+img{
+  object-fit: cover;
+}
+.banner1{
+  height: 400px;
+  width: 100%;
+}
+
+.banner2{
+  height: 360px;
+  width: 100%;
+}
+
+.col.s12.clear{
+  padding: 0;
+  margin: 0;
+}
+
+.row, gray-block, img{
+  margin: 0;
 }

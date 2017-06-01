@@ -1,3 +1,4 @@
+<?php use Roots\Sage\Titles; ?>
 <nav>
   <div class="nav-wrapper">
     <div class="row">
@@ -7,7 +8,7 @@
       </div>
       <div class="col s6 center-align">
          <div class="title">
-          <h1><b>MAIN TITLE</b></h1>
+          <h1><b><?= Titles\title(); ?></b></h1>
          </div>
          <h2>Lorem ipsum dolor sit amet, eu est summo scripserit. Mei cu quod vol uptua</h2>
       </div>
