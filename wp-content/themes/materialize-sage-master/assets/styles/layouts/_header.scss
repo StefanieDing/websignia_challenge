@@ -4,11 +4,6 @@ nav{
   height: 553px;
 }
 
-a{
-  width: 120px;
-  height: 120px;
-}
-
 .title{
   margin-top: 150px;
 }
@@ -19,12 +14,26 @@ h2{
   font-weight: lighter;
 }
 
-ul .right{
-  
+.col.s3.left{
+  margin: 40px 20px; 
+  width: 300px;
+}
+
+ul li {
+  width: 80px;
+  padding-bottom: 540px;
 }
 
 li{
   font-size: 33px;
+}
+
+
+#circle{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background: white;
 }
 
 
