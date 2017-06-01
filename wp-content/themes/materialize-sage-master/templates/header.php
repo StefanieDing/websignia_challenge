@@ -1,12 +1,23 @@
+<?php use Roots\Sage\Titles; ?>
 <nav>
-  <div class="container">
   <div class="nav-wrapper">
-    <!-- <a class="brand-logo" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a> -->
-    <?php
-    if (has_nav_menu('primary_navigation')) :
-      wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'right hide-on-med-and-down']);
-    endif;
-    ?>
-  </div>
+    <div class="row">
+      <div class="col s3 left">
+        <div id="circle"></div>
+       <!--  <a href="#!"><i class="material-icons">brightness_1</i></a> -->
+      </div>
+      <div class="col s6 center-align">
+         <div class="title">
+          <h1><b><?= Titles\title(); ?></b></h1>
+         </div>
+         <h2>Lorem ipsum dolor sit amet, eu est summo scripserit. Mei cu quod vol uptua</h2>
+      </div>
+      <!-- <div class="col s3"> -->
+        <ul class="hide-on-med-and-down right">
+          <li><b>MENU</b></li>
+          <li><a href=""><i class="large material-icons">reorder</i></a></li>
+        </ul>
+      <!-- </div> -->
+    </div>
   </div>
 </nav>
