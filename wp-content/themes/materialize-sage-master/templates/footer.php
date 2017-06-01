@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col s12">
+      <div class="col s12 clear">
         <img src="wp-content/themes/materialize-sage-master/assets/images/computer.png" alt="Computer">
       </div>
     </div>
